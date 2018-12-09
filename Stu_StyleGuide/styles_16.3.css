@@ -1,0 +1,265 @@
+/* 
+====================================
+Sets up styles for .sidebar-container 
+====================================
+*/
+
+.sidebar-container {
+    background: linear-gradient(#F8D353, #FF5C5A);
+    height: 100%;
+    position: fixed;
+    padding: 60px;
+    width: 180px; height: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+
+
+}
+
+
+
+nav {
+
+}
+  
+nav a,
+nav h2 {
+
+}
+
+/* 
+====================================
+Sets up styles for .content-container 
+====================================
+*/
+
+/* Positions section container in relation to .sidebar-container */
+.section-container {
+    background: yellow;
+    margin-top: 40px;
+    margin-left: 290px;
+    padding: 30px 30px;
+    height: 100%;
+
+  
+}
+
+/* Sets max width for content and align content in middle of section-container */
+.content-container {
+    background: lightskyblue;
+    margin: 0 auto;
+    max-width: 850px;
+   
+}
+
+/* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.row-container-no-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-content: center;
+
+  
+}
+
+/* Colors Begin */
+.colorbox1{
+    height: 100px;
+    width: 100px;
+    background: #000459;
+    color: white;
+}
+
+.colorbox2{
+    height: 100px;
+    width: 100px;
+    background: #0016BB;
+}
+
+.colorbox3{
+    height: 100px;
+    width: 100px;
+    background: #0014FF;
+}
+
+.colorbox4{
+    height: 100px;
+    width: 100px;
+    background: #4D5BE8;
+}
+
+.colorbox5{
+    height: 100px;
+    width: 100px;
+    background: #B1B9FF;
+}
+/* Colors end */
+
+/* Button Begin */
+.button-normal{
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px black;
+    background: #000459;
+    color: white;
+    border: none;
+}
+
+.btn2{
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+    background: #404381;
+    color: white;
+    border: none;
+}
+
+.btn3{
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px black;
+    background: #000459;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: #000BFF;
+}
+
+.btn4{
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px black;
+    background: #000459;
+    color: white;
+    border: none;
+}
+
+.btn5{
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px black;
+    background: #000459;
+    color: white;
+    border: none;
+}
+/* Button End */
+
+
+.row-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+}
+
+.row-container-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+
+/* 
+====================================
+BONUS: Sets up styles for mobile breakpoint 
+====================================
+*/
+
+/* Hides mobile navigation on desktop */
+.mobile-nav {
+    position: fixed;
+    left: 0;
+   
+}
+
+/* Sets media query for screens below 450px wide */
+@media only screen and (max-width: 450px) {
+
+    /* Position nav at the top */
+    nav {
+       position: fixed;
+       left: 0;
+       
+
+    }
+
+    /* Shows Mobile Navigation Styles  */
+    .mobile-nav {
+        background: white;
+        width: 100%;
+        padding: 10px 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        height: 80px;
+        margin: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 4);
+       
+    }
+    /* Sets max width for logos in mobile nav */
+    .mobile-nav img {
+        height: 80px;
+
+    }
+
+    /* Hides Sidebar on mobile */
+    .sidebar-container {
+        display: none;
+       
+    }
+  
+    /* Defines mobile container content */
+    .section-container {
+      background: lightskyblue;
+      margin-top: 60px;
+      margin-left: 0px;
+      height: 100%;
+    }
+
+    /* Sets Type Styles */
+    h1 {
+        font-size: 1.6em;
+
+        
+    }
+
+
+    .row-container-no-wrap {
+        flex-wrap: wrap;
+      
+    }
+
+    #Logo .section-logo {
+        width: 300px;
+        height: 100%;
+       
+    }
+
+
+}
+
+/* 
+====================================
+BONUS: Sets up css code snippet styles 
+====================================
+*/
+
+pre {
+
+}
