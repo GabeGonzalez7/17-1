@@ -229,9 +229,8 @@ a {
     padding: 10px;
 }
 
-.navpic {
-    max-width: 150px;
-    max-height: 75px;
+.sidebar-logo {
+    size: 5%;
 }
 
 /* 
