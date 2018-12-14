@@ -227,7 +227,11 @@ a {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 10px;
+}
 
+.navpic {
+    max-width: 150px;
+    max-height: 75px;
 }
 
 /* 
@@ -243,6 +247,10 @@ BONUS: Sets up styles for mobile breakpoint
    
 }
 
+.header {
+    text-align: left;
+}
+
 /* Sets media query for screens below 450px wide */
 @media only screen and (max-width: 450px) {
 
@@ -253,6 +261,7 @@ BONUS: Sets up styles for mobile breakpoint
        
 
     }
+
 
     /* Shows Mobile Navigation Styles  */
     .mobile-nav {
