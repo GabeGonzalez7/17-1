@@ -54,7 +54,7 @@
             <article id="Guidelines">
                 <!--Header-->
                 <h1>
-                    Welcome to the USPS Government Agency Guidelines
+                    Welcome to the National Security Agency (NSA) Guidelines
                 </h1>
                 <!--Copy-->
                 <p>The User Interface Style Guide is here to help maintain your brand across multiple platforms (desktop, tablet, mobile, ios, android, etc) and across multiple markets. Constant iteration requires both an efficient workflow and a well defined collection of core UI elements that can be assembled quickly. Reinventing the wheel is out and standards are in.</p>  
@@ -88,7 +88,7 @@
                     <p> Noto Serif is to be used for headers and paragraphs.</p>
                 </div>
                 <div class="type-styles">
-                    <h1>
+                    <h1 class="header">
                         This is an H1.
                     </h1>
                     <h2>
@@ -173,29 +173,27 @@ font-family: 'Noto Serif', serif;
                     </h1>
                     <!-- Primary Buttons-->
                     <div class="row-container">
-                        <button class="button-normal">
+                        <button class="btn btn-primary">
                             Normal
                         </button>
-                        <button class="btn2">
+                        <button class="btn btn-hover">
                             Hover
                         </button>
-                        <button class="btn3">
+                        <button class="btn btn-pressed">
                             Pressed
                         </button>
-                        <button class="btn4">
+                        <button class="btn btn-loading">
                             <i class="fas fa-spinner"></i> Loading
                         </button>
-                        <button class="btn5">
+                        <button class="btn btn-disabled">
                             Disabled
                         </button>
                     </div>
                     <section class="code">
                             <div>
                             <h4>CSS</h4>
-                                <pre>
-
-/*Primary Colors*/                
-.button-normal{
+                                <pre>           
+.btn-primary{
     width: 120px;
     height: 60px;
     border-radius: 20px;
@@ -203,7 +201,8 @@ font-family: 'Noto Serif', serif;
     background: #000459;
     color: white;
     border: none;
-}  
+    font-family: 'Noto Serif', serif;
+}
                                 </pre>
                             </div>
                         </section>
